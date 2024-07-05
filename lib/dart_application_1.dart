@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:mysql_client/mysql_client.dart';
 
-const apiKey = "AIzaSyD4YHrboaK0ihIgOZdczEXJumYtPvyEm7I";
+const apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 Future<void> main() async {
   final conn = await MySQLConnection.createConnection(
